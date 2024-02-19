@@ -12,7 +12,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/movie" element={<App />} />
         <Route path="/movie/summary/:name" element={<Summary />} />
         <Route path="/movie/form/:name" element={<Form />} />
-
       </Routes>
     </Router>
   </React.StrictMode>,
