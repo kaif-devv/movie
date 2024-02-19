@@ -7,10 +7,10 @@ function Summary() {
   const item = DATA.find(item => item.show.name === name);
   const navigate = useNavigate()
   function handleBack() {
-    navigate('/internship')
+    navigate('/movie')
   }
   function handleBook() {
-    navigate(`/internship/form/${item.show.name}`)
+    navigate(`/movie/form/${item.show.name}`)
   }
 
   return (

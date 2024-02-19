@@ -9,9 +9,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/internship" element={<App />} />
-        <Route path="/internship/summary/:name" element={<Summary />} />
-        <Route path="/internship/form/:name" element={<Form />} />
+        <Route path="/movie" element={<App />} />
+        <Route path="/movie/summary/:name" element={<Summary />} />
+        <Route path="/movie/form/:name" element={<Form />} />
 
       </Routes>
     </Router>

@@ -1,4 +1,4 @@
-Deployment link : https://kaif-devv.github.io/internship/
+Deployment link : https://kaif-devv.github.io/movie/
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

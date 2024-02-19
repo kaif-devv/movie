@@ -6,7 +6,7 @@ function Form() {
   const navigate = useNavigate()
   function handleSubmit(e) {
     e.preventDefault()
-    navigate('/internship')
+    navigate('/movie')
   }
   return (
     <div className='h-screen w-screen flex flex-col justify-center items-center'>

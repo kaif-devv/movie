@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 function Card(props) {
     const navigate = useNavigate()
     function handleClick(){
-        navigate(`/internship/summary/${props.name}`)
+        navigate(`/movie/summary/${props.name}`)
     }
   return (
     <div className='flex gap-1  flex-col max-h-[95vh]  w-[20vw] border-gray-400 hover:shadow-2xl border-2 rounded-2xl overflow-hidden hover:scale-105 transition duration-180 ease-in-out'>
